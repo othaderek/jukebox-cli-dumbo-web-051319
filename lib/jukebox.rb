@@ -10,3 +10,25 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
+def help
+  puts "/^(?=.*help)(?=.*list)(?=.*play)(?=.*exit).+/m"
+end
+
+def play(user_input)
+  
+end
+
+def list(songs)
+  songs.each do |artist, song|
+    p artist
+  end
+  
+end
+
+def exit_jukebox()
+  
+end
+
+def run()
+  
+end
