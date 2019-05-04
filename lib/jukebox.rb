@@ -19,9 +19,7 @@ def play(user_input)
 end
 
 def list(songs)
-  songs.each do |artist, song|
-    p artist
-  end
+  p songs
   
 end
 
